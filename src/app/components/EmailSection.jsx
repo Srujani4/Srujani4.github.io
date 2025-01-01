@@ -48,13 +48,13 @@ const EmailSection = () => {
         </h5>
         <span className='text-[#ADB7BE] mb-4 max-w-md'>
           {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll get back to you as soon as I can! Feel free to reach out to me at <a href="mailto: jayanthchennupati@gmail.com" className='text-white'>jayanthchennupati@gmail.com</a>
+          I&apos;m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll get back to you as soon as I can! Feel free to reach out to me at <a href="mailto: vattikondasrujani@gmail.com" className='text-white'>vattikondasrujani@gmail.com</a>
         </span>
         <div className='socials flex flex-row gap-2 my-2'>
-          <Link href="https://github.com/jayanth122">
+          <Link href="https://github.com/Srujani4">
             <Image src={GithubIcon} alt='Github Icon' />
           </Link>
-          <Link href="https://www.linkedin.com/in/naga-jayanth-c-146296169/">
+          <Link href="https://www.linkedin.com/in/srujani-vattikonda-a94669264/">
             <Image src={LinkedinIcon} alt='Linkedin Icon' />
           </Link>
         </div>
