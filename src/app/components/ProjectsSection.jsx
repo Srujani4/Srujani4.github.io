@@ -6,40 +6,40 @@ import { motion, useInView } from "framer-motion";
 const projectData = [
     {
         id: 1,
-        title: "DEFAI Chatbot CMS",
-        gitUrl: "https://defai.chat/",
+        title: "Liquid Duck Software Challenge",
+        gitUrl: "https://github.com/Srujani4/Liquid-Duck-Software-Challenge",
         image: "p3",
     },
     {
         id: 2,
-        title: "Digital Banking System",
-        gitUrl: "https://github.com/jayanth122/tbdbank",
+        title: "Trajectory Tracking to avoid accidents",
+        gitUrl: "https://github.com/Srujani4/Trajectory-tracking-to-avoid-accidents",
         image: "p3",
     },
     {
         id: 3,
         title: "Image Analysis",
-        gitUrl: "https://github.com/jayanth122/Image-Classification-using-CNN",
+        gitUrl: "https://github.com/Srujani4/Image-Classification-using-CNN",
         image: "p2",
     },
     {
         id: 4,
         title: "Sentiment Analysis",
-        gitUrl: "https://github.com/jayanth122/Sentiment-Analysis-on-IMDB-Movie-Reviews",
+        gitUrl: "https://github.com/Srujani4/Sentiment-Analysis-on-IMDB-Movie-Reviews",
         image: "p4",
     },
     {
         id: 5,
-        title: "Smart Gloves for Mute People",
-        gitUrl: "https://github.com/jayanth122/smart-glove-for-mute-people",
+        title: "Clickbait challenge",
+        gitUrl: "https://github.com/Srujani4/Clickbait-challenge",
         image: "p5",
     },
-    {
-        id: 6,
-        title: "Pharmacy Management Software",
-        gitUrl: "https://github.com/jayanth122/Secure-pharmacy-managment-software",
-        image: "p6",
-    },
+    // {
+    //     id: 6,
+    //     title: "Pharmacy Management Software",
+    //     gitUrl: "https://github.com/jayanth122/Secure-pharmacy-managment-software",
+    //     image: "p6",
+    // },
 ]
 
 const ProjectSection = () => {
