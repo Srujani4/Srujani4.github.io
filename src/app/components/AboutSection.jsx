@@ -9,12 +9,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className='list-disc pl-6'>
-        <li>NextJS</li>
-        <li>Angular</li>
-        <li>SpringBoot</li>
-        <li>Node.js</li>
+        <li>Azure</li>
+        <li>AWS</li>
+        <li>GCP</li>
+        <li>ETL</li>
+        <li>Hadoop</li>
         <li>MongoDB</li>
-        <li>Docker</li>
+        <li>Python</li>
+        <li>SQL</li>
       </ul>
     )
   },
@@ -23,11 +25,11 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className='list-disc pl-6'>
-        <li>University of Waterloo, Ontario <i>(MEng, Spec. in Software)</i></li>
+        <li>University of Waterloo, Ontario <i>(Masters in System Design Engineering, Spec. in AI/ML)</i></li>
         <ul>
           <li>GPA: 3.7/4</li>
         </ul>
-        <li>Vellore Institute of Technology, Amaravati <i>(Bachelor of Technology)</i></li>
+        <li>Jawaharlal Nehru Techmological University, Kakinada <i>(Bachelor of Technology)</i></li>
         <ul>
           <li>GPA: 8.9/10</li>
         </ul>
@@ -39,23 +41,25 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className='list-disc pl-6'>
-        <li><i><i>Full Stack Developer</i>, AI Focal, Canada</i></li>
-        <li><i>Teaching Assistant</i>, ECE459 Programming for Performance (under prof.Jeff Zarnett), University of Waterloo</li>
-        <li><a href=""><i>Software Development Engineering Intern</i>, LGSI</a></li>
+        {/* <li><i><i>Full Stack Developer</i>, AI Focal, Canada</i></li> */}
+        <li><i>Teaching Assistant</i>, University of Waterloo</li>
+        <li><a href=""><i>Data Engineer</i>,Cognizant, <India></India> LGSI</a></li>
+        <li><a href=""><i>Data Engineer</i>,Capgemini, <India></India> LGSI</a></li>
+        <li><a href=""><i>ETL Developer</i>,JDA Software, <India></India> LGSI</a></li>
       </ul>
     )
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className='list-disc pl-6'>
-        <li><a href="">Meta - Front-end Developer Professional Certificate, Coursera </a></li>
-        <li><a href="https://coursera.org/share/b1925ae06f00a6723f231886c62b55c5"> Google Cloud - Building Scalable Java Micro services with Spring Boot and Spring Cloud </a></li>
-        <li><a href="https://coursera.org/share/3f06155f6b85d0ed5a29b19134e42ea3"> Interactivity with JavaScript - University of Michigan, Coursera </a></li>
-      </ul>
-    )
-  },
+  // {
+  //   title: "Certifications",
+  //   id: "certifications",
+  //   content: (
+  //     <ul className='list-disc pl-6'>
+  //       <li><a href="">Meta - Front-end Developer Professional Certificate, Coursera </a></li>
+  //       <li><a href="https://coursera.org/share/b1925ae06f00a6723f231886c62b55c5"> Google Cloud - Building Scalable Java Micro services with Spring Boot and Spring Cloud </a></li>
+  //       <li><a href="https://coursera.org/share/3f06155f6b85d0ed5a29b19134e42ea3"> Interactivity with JavaScript - University of Michigan, Coursera </a></li>
+  //     </ul>
+  //   )
+  // },
 ]
 
 const AboutSection = () => {
@@ -74,10 +78,10 @@ const AboutSection = () => {
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
           <p className='text-base lg:text-lg text-justify'>
-            I am a full stack web developer with a passion for creating interactive and responsive web applications. 
-            I have experience working with JavaScript, React, Redux, Node.js, Express, PostgreSQL, MongoDB, HTML, CSS, and Git. 
-            I am a quick learner and I am always looking to expand my knowledge and skill set. 
-            I am a team player and I am excited to work with others to create amazing applications.
+            I'm a skilled Data Engineer and Analyst with over 6 years of experience in building scalable data pipelines, optimizing SQL queries for large datasets, and delivering actionable insights through business intelligence tools like Power BI and Tableau. 
+            I specialize in leveraging cloud platforms such as GCP, AWS, and Azure to design robust data solutions that drive business outcomes. 
+            With a strong background in data engineering, analytics, and big data tools like Spark and Kafka, I thrive on solving complex data challenges and enabling data-driven decision-making. 
+            Let's connect to create impactful solutions together!
           </p>
           <div className='flex flex-row mt-5'>
             <TabButton
