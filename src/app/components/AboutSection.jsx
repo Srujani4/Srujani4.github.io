@@ -43,9 +43,9 @@ const TAB_DATA = [
       <ul className='list-disc pl-6'>
         {/* <li><i><i>Full Stack Developer</i>, AI Focal, Canada</i></li> */}
         <li><i>Teaching Assistant</i>, University of Waterloo</li>
-        <li><a href=""><i>Data Engineer</i>,Cognizant, <India></India> LGSI</a></li>
-        <li><a href=""><i>Data Engineer</i>,Capgemini, <India></India> LGSI</a></li>
-        <li><a href=""><i>ETL Developer</i>,JDA Software, <India></India> LGSI</a></li>
+        <li><i><i>Data Engineer</i>,Cognizant, India</i></li>
+        <li><i><i>Data Engineer</i>,Capgemini, India</i></li>
+        <li><i><i>ETL Developer</i>,JDA Software, India</i></li>
       </ul>
     )
   },
